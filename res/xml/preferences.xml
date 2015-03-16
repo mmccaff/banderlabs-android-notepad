@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="listItemSize"
+		android:title="@string/pref_listItemSize"
+		android:summaryOff="@string/pref_listItemSizeSummaryOff" 
+		android:summaryOn="@string/pref_listItemSizeSummaryOn"
+		android:defaultValue="true"
+	/>
+	<ListPreference android:key="sortOrder"
+		android:title="@string/pref_sortOrder"
+		android:summary="@string/pref_sortOrderSummary"
+		android:defaultValue="1"
+		android:entries="@array/sortOrderEntries"
+		android:entryValues="@array/sortOrderValues"
+	/>
+	<CheckBoxPreference android:key="sortAscending"
+		android:title="@string/pref_sortAscending"
+		android:summaryOff="@string/pref_sortAscendingSummaryOff" 
+		android:summaryOn="@string/pref_sortAscendingSummaryOn"
+		android:defaultValue="true"
+	/>
+	<ListPreference android:key="textSize"
+		android:title="@string/pref_textSize"
+		android:summary="@string/pref_textSizeSummary"
+		android:defaultValue="16"
+		android:entries="@array/textSizeEntries"
+		android:entryValues="@array/textSizeValues" /> 
+	/>
+	<CheckBoxPreference android:key="deleteConfirmation"
+		android:title="@string/pref_deleteConfirmation"
+		android:summaryOff="@string/pref_deleteConfirmationSummaryOff" 
+		android:summaryOn="@string/pref_deleteConfirmationSummaryOn"
+		android:defaultValue="true"
+	/>
+	<CheckBoxPreference android:key="rememberPosition"
+		android:title="@string/pref_rememberPosition"
+		android:summaryOff="@string/pref_rememberPositionSummaryOff" 
+		android:summaryOn="@string/pref_rememberPositionSummaryOn"
+		android:defaultValue="true"
+	/>
+ 	<PreferenceCategory android:title="@string/pref_notes">			
+		<PreferenceScreen
+			android:title="@string/pref_export"
+			android:summary="@string/pref_exportSummary">
+			<intent
+				android:targetPackage="bander.notepad"
+				android:action="bander.notepad.action.ACTION_EXPORT"
+				android:targetClass="bander.notepad.NoteExport"
+			/>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/pref_import"
+			android:summary="@string/pref_importSummary">
+			<intent
+				android:targetPackage="bander.notepad"
+				android:action="bander.notepad.action.ACTION_IMPORT"
+				android:targetClass="bander.notepad.NoteImport"
+			/>
+		</PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

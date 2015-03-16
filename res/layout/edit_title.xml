@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+ 	android:orientation="vertical"
+ 	android:layout_weight="0"
+ >
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dip"
+		android:orientation="vertical"
+		android:layout_weight="1"
+	>
+		<EditText android:id="@+id/title" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:inputType="textCapSentences"
+		/>
+	</LinearLayout>	
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+	>
+		<Button android:id="@+id/confirm" 
+			android:text="@string/dialog_confirm"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+		/>			
+		<Button android:id="@+id/cancel" 
+			android:text="@string/dialog_cancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+		/>
+	</LinearLayout>
+</LinearLayout>

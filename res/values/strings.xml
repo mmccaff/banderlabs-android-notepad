@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Notepad</string>
+	<string name="app_description">BanderLabs</string>
+	<string name="no_notes">No Notes found.\nPress \'Menu\' to Add a Note.</string>
+	
+	<string name="hint_longpress">Press and hold an item for extra options.</string>
+	
+	<string name="menu_insert">Add Note</string>
+	<string name="menu_search">Search</string>
+	<string name="menu_prefs">Preferences</string>
+	
+	<string name="menu_edit">Edit Note</string>
+	<string name="menu_edit_title">Edit Title</string>
+	<string name="menu_delete">Delete Note</string>
+	
+	<string name="menu_revert">Revert</string>
+	<string name="menu_send">Send Note</string>
+	
+	<string name="dialog_delete">Delete Note</string>
+	<string name="delete_confirmation">Are you sure you want to delete this note?</string>
+	
+	<string name="dialog_confirm">Confirm</string>
+	<string name="dialog_cancel">Cancel</string>
+	<string name="dialog_back">Back</string>
+	
+	<string name="search_hint">Search notes</string>
+	<string name="search_noresults">Could not find any notes containing \'%1$s\'.</string>
+	
+	<plurals name="search_results">
+		<item quantity="one">%1$d result for \'%2$s\' </item>
+		<item quantity="other">%1$d results for \'%2$s\' </item>
+	</plurals>
+
+	<string name="error_nomedia">Could not find any usable external storage. Check your SD card and try again.</string>
+	
+	<string name="dialog_export">Export Notes</string>
+	<string name="export_confirmation">Are you sure you want to export your notes to the SD card? This will overwrite any existing files.</string>
+	
+	<string name="export_progress">Exporting notes…</string>
+	<plurals name="export_done">
+		<item quantity="one">Exported %1$d note to \'%2$s\'.</item>
+		<item quantity="other">Exported %1$d notes to \'%2$s\'.</item>
+	</plurals>
+	<string name="export_failed">Export failed!</string>
+
+	<string name="dialog_import">Import Notes</string>
+	<string name="import_confirmation">Are you sure you want to import notes from your SD card? This will overwrite any existing notes.</string>
+
+	<string name="import_progress">Importing notes…</string>
+	<plurals name="import_done">
+		<item quantity="one">Imported %1$d note from \'%2$s\'.</item>
+		<item quantity="other">Imported %1$d notes from \'%2$s\'.</item>
+	</plurals>
+	<string name="import_failed">Import failed!</string>
+
+	
+	<string name="pref_listItemSize">Large List Items</string>
+	<string name="pref_listItemSizeSummaryOn">Showing large list items</string>
+	<string name="pref_listItemSizeSummaryOff">Showing small list items</string>
+	<string name="pref_sortOrder">Sort Order</string>
+	<string name="pref_sortOrderSummary">Sorting notes by %s</string>
+	<string name="pref_sortAscending">Sort Ascending</string>
+	<string name="pref_sortAscendingSummaryOn">Sorting in ascending order</string>
+	<string name="pref_sortAscendingSummaryOff">Sorting in descending order</string>
+	<string name="pref_textSize">Text Size</string>
+	<string name="pref_textSizeSummary">Using text size %s</string>
+	<string name="pref_deleteConfirmation">Confirm Deletes</string>
+	<string name="pref_deleteConfirmationSummaryOn">Confirm when deleting a note</string>
+	<string name="pref_deleteConfirmationSummaryOff">Do not confirm when deleting a note</string>
+	<string name="pref_rememberPosition">Remember Position</string>
+	<string name="pref_rememberPositionSummaryOn">Remembering and restoring cursor and scrollbar position in notes</string>
+	<string name="pref_rememberPositionSummaryOff">Not remembering cursor and scrollbar position in notes</string>
+	<string name="pref_notes">Notes</string>
+	<string name="pref_export">Export</string>
+	<string name="pref_exportSummary">Export your notes to the SD card</string>
+	<string name="pref_import">Import</string>
+	<string name="pref_importSummary">Import notes from your SD card</string>
+</resources>
