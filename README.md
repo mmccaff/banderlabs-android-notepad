@@ -1,6 +1,8 @@
 # banderlabs-android-notepad
 Abandoned, simple notepad app by BanderLabs forked from [Google Code](https://code.google.com/p/banderlabs/wiki/Notepad).
 
+I have no association with BanderLabs, but use this app, and wanted to preserve it because it was announced that Google code will be going away, and also because this application is no longer available in the Play Store.
+
 Based on Google's tutorial [NotePad] (https://code.google.com/p/banderlabs/wiki/Notepad) app.
 
 ---
