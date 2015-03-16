@@ -5,7 +5,6 @@ Based on Google's tutorial [NotePad] (https://code.google.com/p/banderlabs/wiki/
 
 ---
 
-Introduction
 Notepad is a simple, easy-to-use note-taking app.
 
 This version has a preference to set text size, optional delete confirmation, it can search, sort your notes in different ways and it has the ability to send the note via e-mail or any other messenger services.
